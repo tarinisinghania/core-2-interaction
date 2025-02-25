@@ -1,0 +1,231 @@
+body {
+    background-color: rgb(21, 21, 21);
+    margin: 40px;
+}
+
+.header {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header h1 {
+    font-size: 50px;
+    font-family: "bitcount-mono-single-square", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(181, 179, 179);
+    margin: 0;
+    padding: 10px;
+}
+.header img {
+    margin: 0;
+    width: 100px;
+    height: auto;
+}
+
+.panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    color:rgb(93, 90, 90);
+}
+
+.panel a {
+    color: rgb(31, 31, 31);
+    text-decoration: underline;
+    text-underline-offset: 24px;
+    display: inline-block;
+    font-family: "Pixelify Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.panel a:hover {
+    background-color: rgb(72, 70, 70);
+    text-decoration: underline rgb(72, 70, 70);
+    border-radius: 10px;
+}
+
+.panel p {
+    margin: 0;
+    padding: 10px;
+}
+.panel1 {
+    font-size: 14px;
+}
+.panel6 a{
+    font-weight: 700;
+    font-size: 16px;
+    background-color: rgb(238, 0, 255);
+    text-decoration: underline rgb(238, 0, 255);
+    border-radius: 10px;
+}
+.panel3 a{
+    font-size: 14px;
+    background-color: rgb(0, 255, 0);
+    text-decoration: underline rgb(0, 255, 0);
+    border-radius: 10px;
+}
+.panel4 a{
+    font-size: 14px;
+    background-color: rgb(255, 242, 0);
+    text-decoration: underline rgb(255, 242, 0);
+    border-radius: 10px;
+}
+.panel2 a{
+    font-size: 14px;
+    background-color: rgb(255, 68, 0);
+    text-decoration: underline rgb(255, 68, 0);
+    border-radius: 10px;
+}
+.panel5 a{
+    font-size: 14px;
+    background-color: rgb(144, 0, 255);
+    text-decoration: underline rgb(144, 0, 255);
+    border-radius: 10px;
+}
+.panel7 a{
+    font-size: 14px;
+    background-color: rgb(144, 0, 255);
+    text-decoration: underline rgb(144, 0, 255);
+    border-radius: 10px;
+}
+
+.second-header {
+    margin: 0;
+    padding: 0;
+}
+.second-header h2 {
+    
+    font-family: "bitcount-mono-single-square", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;
+    margin: 15px 0px 10px 0;
+    text-align: left;
+    color: rgb(181, 179, 179);
+}
+
+.two-column {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.left-column {
+    break-after: always;
+}
+
+.left-column ol {
+    color: rgb(120, 118, 118);
+}
+
+.right-column ol {
+    color: rgb(120, 118, 118);
+}
+
+.left-column span {
+    color: blueviolet;
+    letter-spacing: 0px;
+    transition: letter-spacing 0.25s;
+}
+.left-column span:hover {
+    letter-spacing: 4px;
+}
+
+.right-column span {
+    color: rgb(4, 255, 0);
+    letter-spacing: 0px;
+    transition: letter-spacing 0.25s;
+}
+.right-column span:hover {
+    letter-spacing: 4px;
+}
+
+.left-column h1 {
+    font-family: "bitcount-mono-single-square", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    padding: 10px;
+    color:black;
+}
+
+.right-column h1 {
+    font-family: "bitcount-mono-single-square", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: rgb(17, 255, 0);
+    padding: 10px;
+    color: black;
+}
+
+.left-column a {
+    text-decoration: none;
+}
+
+.right-column a {
+    text-decoration: none;
+}
+
+.left-column h1:hover {
+    background-color: rgb(18, 255, 5);
+}
+
+.right-column h1:hover {
+    background-color: blueviolet;
+}
+
+.marquee {
+    overflow: hidden; 
+    white-space: nowrap; 
+    box-sizing: border-box; 
+    width: 100%; 
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color:  rgb(95, 95, 95);
+    color: rgb(100, 100, 100); 
+    padding: 5px 0; 
+    margin: 10px;
+    font-family: "bitcount-mono-single-square", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.marquee-content {
+    display: inline-block; 
+    animation: marquee 8s linear infinite; 
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    20% {
+        transform: translateX(0); 
+    }
+    40% {
+        transform: translateX(0); 
+    }
+    60% {
+        transform: translateX(-100%); 
+    }
+    100% {
+        transform: translateX(-100%); 
+    }
+}

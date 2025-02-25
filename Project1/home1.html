@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Along Circle</title>
+    <link rel="stylesheet" href="home1.css">
+</head>
+<body>
+    
+    <!-- <div class="image"><img src="earth.png" alt="earth"></div> -->
+    <svg width="980" height="980" viewBox="0 0 300 300">
+        <!-- Define the circular path -->
+        <defs>
+            <path id="circlePath" d="M 150,150 m -100,0 a 100,100 0 1,1 200,0 a 100,100 0 1,1 -200,0" />
+        </defs>
+        
+        <!-- Place text along the path -->
+        <text fill="black" font-size="20" font-family="Arial">
+            <a href="/home.html"><textPath href="#circlePath" startOffset="0%">
+                The Times of INDIA
+            </textPath></a>
+        </text>
+    </svg>
+</body>
+</html>

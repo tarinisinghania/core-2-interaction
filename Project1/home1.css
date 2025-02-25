@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: black;
+    background-image: url(earth1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+text {
+    font-size: 24px; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+    font-weight: bold; 
+    letter-spacing: 2px; 
+    text-transform: uppercase; 
+    animation: rotateSpeed 2s linear; /* Adjust duration and repetition */
+    transform-origin: 150px center;
+}
+
+a:hover {
+    fill: rgb(193, 80, 4);
+    opacity: 50%;
+}
+
+@keyframes rotateSpeed {
+    0% { transform: rotate(0deg);animation-timing-function: ease-out; }  /* Start */
+    
+    100% { transform: rotate(360deg);animation-timing-function: ease-in;}  /* Back to start */
+}
+
+a {
+    fill: white;
+}

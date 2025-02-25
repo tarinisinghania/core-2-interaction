@@ -1,0 +1,129 @@
+body{
+    background-color: yellow;
+    color: black;
+}
+
+::selection {
+    color: red;
+    text-shadow:
+    0 0 10px orange,
+    0 0 10px orange,
+    0 0 20px red,
+    0 0 20px red,
+    0 0 40px brown,
+    0 0 40px brown
+   ;
+}
+
+.nav {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 30px;
+    font-size: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.nav-link {
+    background-color: black;
+    color: yellow;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border-style: dashed;
+    margin-right: 10px;
+}
+.nav-link:hover {
+    background-color: red;
+    text-shadow:
+    0 0 10px orange,
+    0 0 10px orange,
+    0 0 30px red,
+    0 0 30px red,
+    0 0 50px brown,
+    0 0 50px brown;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.home .main {
+    font-size: 8rem;
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.home .nav-link {
+    background-color: yellow;
+    color: none;
+    padding: 0;
+    border-radius: none;
+    border-style: none;
+    margin-right: 0;
+}
+.home .nav-link:hover {
+    background-color: red;
+    border-radius: 100%;
+    box-shadow:
+    0 0 10px orange,
+    0 0 10px orange,
+    0 0 30px red,
+    0 0 30px red,
+    0 0 50px brown,
+    0 0 50px brown;
+}
+
+.part-one {
+    background-color: red;
+    color: yellow;
+}
+.part-one .nav {
+    margin-top: 20px;
+}
+
+.part-two {
+    background-color: black;
+    color: yellow;
+}
+.part-two .main {
+    margin: 50px;
+}
+
+.part-three {
+    background-color: blue;
+    height: 100vh;
+    border-style: dotted;
+    color: yellow;
+}
+
+.part-four .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem;
+    color: red;
+}
+
+.part-five {
+    background-color: red;
+    color: yellow;
+}

@@ -1,0 +1,171 @@
+body {
+    background-color: rgb(250, 202, 235);
+    background-image: url(blockprint.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.wrapper {
+    margin: 0;
+}
+
+.header {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header h1 {
+    background-color: rgb(246, 182, 182);
+    color: rgb(115, 15, 15);
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 10px;
+}
+.header img {
+    margin: 0;
+    width: 80px;
+    height: auto;
+}
+
+.panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    margin-bottom: 30px;
+    background-color: rgb(246, 182, 182);
+    color: rgb(115, 15, 15);
+}
+
+.panel a {
+    color: rgb(115, 15, 15);
+    text-decoration: underline;
+    text-underline-offset: 24px;
+}
+.panel a:hover {
+    color: white;
+}
+
+.panel p {
+    font-family: 'Times New Roman', Times, serif;
+}
+.panel1 {
+    font-size: 14px;
+}
+.panel4 {
+    font-weight: bold;
+    font-size: 16px;
+}
+.panel2 {
+    font-size: 14px;
+}
+.panel3 {
+    font-size: 14px;
+}
+.panel5 {
+    font-size: 14px;
+}
+.panel6 {
+    font-size: 14px;
+}
+.panel7 {
+    font-size: 14px;
+}
+
+
+.panel p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@font-face {
+    font-family: mahaputra;
+    src: url(Mahaputra.ttf);
+}
+
+.second-header {
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+    color: white;
+    
+}
+.second-header h2 {
+    font-family: mahaputra;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(115, 15, 15);
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(246, 182, 182);
+}
+
+.wrapper1 {
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    background-color: rgb(244, 109, 109);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.button {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin: 5px;
+}
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+.button:hover {
+    background-color: rgb(246, 182, 182);
+}
+
+.body-text {
+    padding: 0;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 30px;
+    padding-left: 40px;
+    color: white;
+}
+
+
+.wrapper2 {
+    display: inline-block;
+    margin-top: 30px;
+    width: 300px;
+    height: auto;
+    background-color: rgb(244, 109, 109);
+    border-radius: 5px;
+}
+.wrapper3 {
+    display: inline-block;
+    margin-top: 30px;
+    width: 300px;
+    height: auto;
+    background-color: rgb(244, 109, 109);
+    border-radius: 5px;
+}
+.wrapper4 {
+    display: inline-block;
+    margin-top: 30px;
+    width: 300px;
+    height: auto;
+    background-color: rgb(244, 109, 109);
+    border-radius: 5px;
+}
+

@@ -1,0 +1,148 @@
+body {
+    background-color: gainsboro;
+    margin: 40px;
+}
+
+.header {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative; /* Position relative for absolute children */
+    border: 28px solid transparent; /* Required to define the border width */
+    border-image-source: url('Asset3.png'); /* Image source */
+    border-image-slice: 100; /* Defines how the image is sliced */
+    border-image-repeat: repeat; /* Can be stretch, repeat, or round */
+}
+
+.header h1 {
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 10px;
+}
+.header img {
+    margin: 0;
+    width: 100px;
+    height: auto;
+}
+
+.panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+.panel a {
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 24px;
+}
+.panel a:hover {
+    color: orange;
+}
+
+.panel p {
+    font-family: 'Times New Roman', Times, serif;
+}
+.panel1 {
+    font-size: 14px;
+}
+.panel2 {
+    font-size: 14px;
+}
+.panel3 {
+    font-weight: bold;
+    font-size: 16px;
+}
+.panel4 {
+    font-size: 14px;
+}
+.panel7 {
+    font-size: 14px;
+}
+.panel5 {
+    font-size: 14px;
+}
+.panel6 {
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: mahaputra;
+    src: url(Mahaputra.ttf);
+}
+
+@font-face {
+    font-family: boxing;
+    src: url(Boxing-Regular.woff);
+}
+
+.second-header {
+    margin: 0;
+    padding: 0;
+    position: relative; /* Position relative for absolute children */
+    border: 15px solid transparent; /* Required to define the border width */
+    border-image-source: url('Asset3.png'); /* Image source */
+    border-image-slice: 100; /* Defines how the image is sliced */
+    border-image-repeat: repeat; /* Can be stretch, repeat, or round */
+}
+.second-header h2 {
+    font-family: mahaputra;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+
+.two-column {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.left-column {
+    margin: 0;
+    padding: 0;
+}
+
+
+.left-column p {
+    color: black;
+    font-family: mahaputra;
+    font-size: 50px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 110px;
+}
+
+.right-column {
+    padding: 0;
+    position: relative; /* Position relative for absolute children */
+    border: 25px solid transparent; /* Required to define the border width */
+    border-image-source: url('k_border.png'); /* Image source */
+    border-image-slice: 100; /* Defines how the image is sliced */
+    border-image-repeat: repeat; /* Can be stretch, repeat, or round */
+}
+
+.right-column p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    padding: 30px;
+    color: black;
+}
+
+span {
+    color: orange;
+}
+span:hover {
+    color: gainsboro;
+}

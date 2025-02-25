@@ -1,0 +1,253 @@
+body {
+    background-color: rgb(202, 77, 27);
+    margin: 40px;
+}
+
+.header {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: rgb(140, 52, 17);
+}
+
+.header h1 {
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 10px;
+}
+.header img {
+    margin: 0;
+    width: 100px;
+    height: auto;
+}
+
+.panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    color: rgb(140, 52, 17);
+}
+
+.panel a {
+    color: rgb(140, 52, 17);
+    text-decoration: underline;
+    text-underline-offset: 24px;
+}
+.panel a:hover {
+    color: orange;
+}
+
+.panel p {
+    font-family: 'Times New Roman', Times, serif;
+}
+.panel1 {
+    font-size: 14px;
+}
+.panel3 {
+    font-size: 14px;
+}
+.panel2 {
+    font-weight: bold;
+    font-size: 16px;
+}
+.panel4 {
+    font-size: 14px;
+}
+.panel7 {
+    font-size: 14px;
+}
+.panel5 {
+    font-size: 14px;
+}
+.panel6 {
+    font-size: 14px;
+}
+@font-face {
+    font-family: hobeaux;
+    src: url(Hobeaux_Rococeaux_Demo-Regular.otf);}
+@font-face {
+    font-family: hobeaux-full;
+    src: url(Hobeaux_Rococeaux_Demo-Background.otf);
+}
+
+@font-face {
+    font-family: boxing;
+    src: url(Boxing-Regular.woff);
+}
+
+.second-header {
+    margin-top: 15vw;
+    padding: 0;
+}
+.second-header h2 {
+    font-family: hobeaux;
+    font-weight: lighter;
+    font-size: 80px;
+    text-align: center;
+    color: rgb(140, 52, 17);
+}
+.second-header a {
+    text-decoration: none;
+}
+.second-header h2:hover {
+    color: white;
+    font-family: hobeaux-full;
+}
+/* body {
+    background-color: rgb(202, 77, 27); 
+    margin: 0;
+}
+@font-face {
+    font-family: hobeaux;
+    src: url(Hobeaux_Rococeaux_Demo-Regular.otf);}
+
+.header {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+    
+.header h1 {
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 10px;
+}
+.header img {
+    margin: 0;
+    width: 100px;
+    height: auto;
+}
+    
+.panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+    
+.panel a {
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 24px;
+}
+.panel a:hover {
+    color: orange;
+}
+    
+.panel p {
+    font-family: 'Times New Roman', Times, serif;
+ }
+.panel1 {
+     font-size: 14px;
+}
+.panel3 {
+    font-size: 14px;
+}
+.panel2 {
+     font-weight: bold;
+    font-size: 16px;
+ }
+.panel4 {
+    font-size: 14px;
+}
+.panel7 {
+    font-size: 14px;
+}
+.panel5 {
+    font-size: 14px;
+}
+.panel6 {
+    font-size: 14px;
+}
+    
+@font-face {
+    font-family: mahaputra;
+    src: url(Mahaputra.ttf);
+}
+    
+@font-face {
+    font-family: boxing;
+    src: url(Boxing-Regular.woff);
+ }
+
+.title {
+    display: flex;
+    z-index: 1;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    font-family: hobeaux;
+    color: rgb(140, 52, 17);
+    font-size: 80px;
+    font-weight: lighter;
+} */
+
+
+/* .sidebar {
+    width: 60px;
+    height: 100vh;
+    background-color: rgb(202, 77, 27);
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: width 0.3s ease;
+}
+
+.sidebar:hover {
+    width: 250px;
+    background-color: rgb(140, 52, 17);
+}
+
+.sidebar:hover a {
+    margin-left: 28px;
+}
+
+.sidebar p {
+    display: block;
+    padding: 18px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.3s;
+    white-space: nowrap;
+    margin-left: 20px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.3s;
+    white-space: nowrap;
+}
+
+.sidebar a:hover {
+    font-weight: bold;
+}
+
+.sidebar img {
+    width: 80px;
+    height: auto;
+    margin-left: 40px;
+}
+
+
+  */
