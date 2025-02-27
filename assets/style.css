@@ -1,6 +1,6 @@
 html {
-	background: lime;
-	color: red;
+	background: blue;
+	color: rgb(248, 232, 166);
 }
 .split {
     height: 100%;
@@ -22,7 +22,7 @@ html {
 }
 .left a {
     text-decoration: none;
-    color: black;
+    color: rgb(58, 130, 245);
 }
 .left a:hover {
     color: yellow;
@@ -54,21 +54,7 @@ html {
 .project2 {
     border-bottom-style: solid;
 }
-.project3 {
-    border-bottom-style: solid;
-}
-.project4 {
-    border-bottom-style: solid;
-}
-.project5 {
-    border-bottom-style: solid;
-}
-.project6 {
-    border-bottom-style: solid;
-}
-.project7 {
-    border-bottom-style: solid;
-}
+
 .right {
     right: 0;
     width: 80%;
