@@ -1,0 +1,212 @@
+[
+  {
+    "note": "Happy Birthday, Mom! 🎉 Thank you for your endless love, warmth, and support. Wishing you a day as wonderful as you are! 💕",
+    "occasion": "birthday",
+    "to": "mom",
+    "filename": "birthday.png"
+  },
+  {
+    "note": "Happy Anniversary, Mom & Dad! 🎉 Your love and partnership inspire me every day. Wishing you many more years of happiness together!",
+    "occasion": "anniversary",
+    "to": "mom",
+    "filename": "anniversary.png"
+  },
+  {
+    "note": "Congratulations, Graduate! 🎓 Wishing you a bright future filled with endless opportunities and success!",
+    "occasion": "graduation",
+    "to": "mom",   
+    "filename": "graduation.png"
+  },
+  {
+    "note": "Get well soon, Mom! ❤️ Wishing you a speedy recovery. Rest up and know that I’m here for you always!",
+    "occasion": "get well soon",
+    "to": "mom",
+    "filename": "getwellsoon.png"
+  },
+  {
+    "note": "Merry Christmas, Mom! 🎄❤️\nYou are the heart of our home and the warmth in every holiday memory. Thank you for your endless love, kindness, and the magic you bring into our lives. Christmas wouldn’t be the same without your laughter, your hugs, and the joy you spread so effortlessly.",
+    "occasion": "christmas",
+    "to": "mom",
+    "filename": "christmas.png"
+  },
+  {
+    "note": "Happy Birthday, Dad! 🎂 You’re my biggest inspiration and my greatest supporter. Hope your day is filled with joy and laughter!",
+    "occasion": "birthday",
+    "to": "dad",
+    "filename": "birthday.png"
+  },
+  {
+    "note": "Happy Anniversary, Mom & Dad! 🎉 Your love and partnership inspire me every day. Wishing you many more years of happiness together!",
+    "occasion": "anniversary",
+    "to": "dad",
+    "filename": "anniversary.png"
+  },
+  {
+    "note": "Congratulations, Graduate! 🎓 Wishing you a bright future filled with endless opportunities and success!",
+    "occasion": "graduation",
+    "to": "dad",
+    "filename": "graduation.png"
+  },
+  {
+    "note": "Feel better soon, Dad! 💪 Take it easy and get plenty of rest. Can’t wait to see you back to your strong, amazing self!",
+    "occasion": "get well soon",
+    "to": "dad",
+    "filename": "getwellsoon.png"
+  },
+  {
+    "note": "Merry Christmas, Dad! 🎄 Wishing you a season filled with happiness, laughter, and all the things you love most!",
+    "occasion": "christmas",
+    "to": "dad",
+    "filename": "christmas.png"
+  },
+  {
+    "note": "Happy Birthday, Bro! 🎈 Wishing you an amazing year ahead filled with adventure, success, and happiness!",
+    "occasion": "birthday",
+    "to": "brother",
+    "filename": "birthday.png"
+  },
+  {
+    "note": "Happy Anniversary! 💍 May your love continue to grow stronger with each passing year. Wishing you endless joy and togetherness!",
+    "occasion": "anniversary",
+    "to": "brother",
+    "filename": "anniversary.png"
+  },
+  {
+    "note": "Congrats, Bro! 🎉 Your hard work has paid off, and I’m so proud of you. Wishing you success and happiness in this next chapter!",
+    "occasion": "graduation",
+    "to": "brother",
+    "filename": "graduation.png"
+  },
+  {
+    "note": "Hey Bro, get well soon! 💙 Sending you strength and good vibes for a quick recovery!",
+    "occasion": "get well soon",
+    "to": "brother",
+    "filename": "getwellsoon.png"
+  },
+  {
+    "note": "Merry Christmas, Bro! 🎅 Hope your holiday is as fun and awesome as you are!",
+    "occasion": "christmas",
+    "to": "brother",
+    "filename": "christmas.png"
+  },
+  {
+    "note": "Happy Birthday, Sis! 🎂 You’re my best friend and my biggest cheerleader. Hope you have a fantastic day!",
+    "occasion": "birthday",
+    "to": "sister",
+    "filename": "birthday.png"
+  },
+  {
+    "note": "Happy Anniversary! 💍 May your love continue to grow stronger with each passing year. Wishing you endless joy and togetherness!",
+    "occasion": "anniversary",
+    "to": "sister",
+    "filename": "anniversary.png"
+  },
+  {
+    "note": "Congratulations, Sis! 🥳 You’ve achieved something amazing, and I couldn’t be prouder. The future is yours to conquer!",
+    "occasion": "graduation",
+    "to": "sister",
+    "filename": "graduation.png"
+  },
+  {
+    "note": "Rest up and feel better soon, Sis! 🌸 You’re stronger than this, and I know you’ll be back to your best self in no time!",
+    "occasion": "get well soon",
+    "to": "sister",
+    "filename": "getwellsoon.png"
+  },
+  {
+    "note": "Merry Christmas, Sis! ❄️ May your holidays be filled with love, joy, and lots of sweet treats!",
+    "occasion": "christmas",
+    "to": "sister",
+    "filename": "christmas.png"
+  },
+  {
+    "note": "Dear Best friend, \nWishing you a day as amazing as you are! Thank you for always being my partner in crime, my biggest cheerleader, and the best friend I could ever ask for. Let’s celebrate YOU today! Love you tons! 💕🎂🥳",
+    "occasion": "birthday",
+    "to": "bestfriend",
+    "filename": "birthday.png"
+  },
+  {
+    "note": "Happy Anniversary! 💍 May your love continue to grow stronger with each passing year. Wishing you endless joy and togetherness!",
+    "occasion": "anniversary",
+    "to": "bestfriend",
+    "filename": "anniversary.png"
+  },
+  {
+    "note": "Bestie, you did it! 🎓 I knew you would! Wishing you all the success and happiness in this exciting new journey!",
+    "occasion": "graduation",
+    "to": "bestfriend",
+    "filename": "graduation.png"
+  },
+  {
+    "note": "Bestie, get well soon! 💕 The world needs your energy and laughter, so take care and come back stronger!",
+    "occasion": "get well soon",
+    "to": "bestfriend",
+    "filename": "getwellsoon.png"
+  },
+  {
+    "note": "Merry Christmas, Bestie! 🎁 So grateful for you. Wishing you all the happiness and love this holiday season!",
+    "occasion": "christmas",
+    "to": "bestfriend",
+    "filename": "christmas.png"
+  },
+  {
+    "note": "Happy Birthday! 🥳 I’m so lucky to have you in my life. Wishing you all the happiness in the world!",
+    "occasion": "birthday",
+    "to": "friend",
+    "filename": "birthday.png"
+  },
+  {
+    "note": "Happy Anniversary! 💍 May your love continue to grow stronger with each passing year. Wishing you endless joy and togetherness!",
+    "occasion": "anniversary",
+    "to": "friend",
+    "filename": "anniversary.png"
+  },
+  {
+    "note": "Congrats, my friend! 🎉 Your dedication has brought you here, and I can’t wait to see what you do next!",
+    "occasion": "graduation",
+    "to": "friend",
+    "filename": "graduation.png"
+  },
+  {
+    "note": "Wishing you a fast recovery! 🌟 Hope you’re feeling better soon and back to doing what you love!",
+    "occasion": "get well soon",
+    "to": "friend",
+    "filename": "getwellsoon.png"
+  },
+  {
+    "note": "Merry Christmas! 🎄 Hope your holidays are full of love, joy, and laughter!",
+    "occasion": "christmas",
+    "to": "friend",
+    "filename": "christmas.png"
+  },
+  {
+    "note": "Happy Birthday! 🎊 May your day be filled with joy, laughter, and everything that makes you happiest! Let me know if you’d like a longer version! 😊🎂",
+    "occasion": "birthday",
+    "to": "none",
+    "filename": "birthday.png"
+  },
+  {
+    "note": "Happy Anniversary! 💍 May your love continue to grow stronger with each passing year. Wishing you endless joy and togetherness!",
+    "occasion": "anniversary",
+    "to": "none",
+    "filename": "anniversary.png"
+  },
+  {
+    "note": "Congratulations, Graduate! 🎓 Wishing you a bright future filled with endless opportunities and success!",
+    "occasion": "graduation",
+    "to": "none",
+    "filename": "graduation.png"
+  },
+  {
+    "note": "Sending you warm thoughts and well wishes for a speedy recovery. Get well soon!",
+    "occasion": "get well soon",
+    "to": "none",
+    "filename": "getwellsoon.png"
+  },
+  {
+    "note": "Wishing you a Merry Christmas and a holiday season filled with peace, love, and happiness!",
+    "occasion": "christmas",
+    "to": "none",
+    "filename": "christmas.png"
+  }
+]

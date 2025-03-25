@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/home.css">
+</head>
+<body>
+    <div class="output">
+	<div class="message">
+    <h1>Vintage WebPost</h1><br>
+    <p>upload your picture <span>+</span> </p>
+	<input type="file" id="imageUpload" accept="image/*">
+    </div>
+	
+    <!-- Controls -->
+		<div class="controls">
+			<div class="controls-grid">
+
+				<!-- One -->
+				<select name="occasion">
+					<option value="birthday">BIRTHDAY</option>
+					<option value="anniversary">ANNIVERSARY</option>
+                    <option value="graduation">GRADUATION</option>
+                    <option value="getwellsoon">GET WELL SOON</option>
+                    <option value="christmas">CHRISTMAS</option>
+				</select>
+
+				<!-- Two -->
+				<select name="to">
+					<option value="mom">MOM</option>
+					<option value="dad">DAD</option>
+					<option value="bestfriend">BESTFRIEND</option>
+					<option value="brother">BROTHER</option>
+                    <option value="sister">SISTER</option>
+                    <option value="friend">FRIEND</option>
+                    <option value="none">NONE</option>
+				</select>
+
+				<!-- Three -->
+                <div class="date">
+					<input type="date" name="storydate" />
+                </div>
+
+				<!-- Submit -->
+				<button name="capture">Capture</button>
+				
+			</div>
+		</div>
+	</div>
+		<div class="border-image">
+			<div class="note"></div>
+		</div>
+		
+<script src="assets/webpost.js" type="module"></script>
+</body>
+</html>

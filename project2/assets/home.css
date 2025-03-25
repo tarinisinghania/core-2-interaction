@@ -1,0 +1,148 @@
+body {
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+}
+.imperial-script-regular {
+    font-family: "Imperial Script", cursive;
+    font-style: normal;
+  }
+
+.output {
+    text-align: center;
+    height: 100vh;
+    color: bisque;
+}
+
+.output h1 {
+    position: relative;
+    top: 20px;
+    font-family:  "Imperial Script", cursive;
+    font-size: 60px;
+    color: bisque;
+    font-weight: 100;
+}  
+.output p {
+    font-family: monospace;
+    font-size: 18px;
+    color: bisque;
+    font-weight: lighter;
+    margin: 0;
+    padding: 20px;
+}
+.output span {
+    font-weight: bold;
+}
+
+.controls {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px;
+    font-size: 40px;
+    color: blue;
+}
+
+.controls-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+	width: 100%;
+	max-width: 400px;
+	margin: auto;
+}
+select[name="occasion"] {
+    border-radius: 60px;
+    color: blue;
+    background-color: rgb(252, 252, 157);
+    font-size: 12px;
+    font-family: monospace;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+select[name="to"] {
+    border-radius: 60px;
+    color: blue;
+    background-color: rgb(252, 252, 157);
+    font-size: 12px;
+    font-family: monospace;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.date input {
+    border-radius: 60px;
+    color: blue;
+    background-color: rgb(252, 252, 157);
+    font-size: 12px;
+    font-family: monospace;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding: 12px;
+    height: 30px;
+}
+button[name="capture"] {
+	grid-column: span 3;
+    border-radius: 60px;
+    color: blue;
+    background-color: rgb(252, 252, 157);
+    font-size: 30px;
+    font-family: "Imperial Script", cursive;
+    margin: 20px;
+}
+.border-image {
+    margin-top: 200px;
+    margin-left: 450px;
+    width: 600px;
+    position: relative;
+}
+.border-image img{
+	width: 600px;
+	opacity: 0;
+	animation-name: fadeIn;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+.note {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    font-family: monospace;
+    font-weight: 100;
+    text-align: left;
+    width: 200px;
+    height: auto;
+    padding: 30px;
+    border-radius: 5px;
+}
+.date-display {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    font-size: 12px;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 10px;
+    color: black;
+}
+.vintage-photo {
+    width: 250px; /* Adjust size */
+    height: auto;
+    filter: sepia(50%) contrast(85%) brightness(90%) saturate(60%);
+    border: 10px solid #fff; /* White border */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+    padding: 10px;
+    background-color: #222; /* Dark background like photobooth strips */
+    display: block;
+    margin: 20px auto;
+}
+
+@keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
