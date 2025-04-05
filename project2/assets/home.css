@@ -8,21 +8,18 @@ body {
     font-style: normal;
   }
 
-.output {
-    text-align: center;
-    height: 100vh;
-    color: bisque;
-}
-
-.output h1 {
+.header h1 {
+    text-align: left;
     position: relative;
-    top: 20px;
+    padding-left: 120px;
+    margin-top: 60px;
     font-family:  "Imperial Script", cursive;
     font-size: 60px;
     color: bisque;
     font-weight: 100;
+    word-spacing: 10px;
 }  
-.output p {
+.message p {
     font-family: monospace;
     font-size: 18px;
     color: bisque;
@@ -35,9 +32,6 @@ body {
 }
 
 .controls {
-	position: fixed;
-	bottom: 0;
-	left: 0;
 	width: 100%;
 	padding: 20px;
     font-size: 40px;
@@ -45,12 +39,15 @@ body {
 }
 
 .controls-grid {
+    position: fixed;
+	bottom: 200px;
+	right: 120px;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	gap: 10px;
 	width: 100%;
 	max-width: 400px;
-	margin: auto;
+    text-align: right;
 }
 select[name="occasion"] {
     border-radius: 60px;
@@ -84,6 +81,19 @@ select[name="to"] {
     padding: 12px;
     height: 30px;
 }
+.message {
+    float: right;
+    margin-top: 60px;
+    margin-right: 100px;
+}
+.message input {
+    border-radius: 60px;
+    color: blue;
+    background-color: rgb(252, 252, 157);
+    font-size: 12px;
+    font-family: monospace;
+    padding: 10px;
+}
 button[name="capture"] {
 	grid-column: span 3;
     border-radius: 60px;
@@ -93,18 +103,46 @@ button[name="capture"] {
     font-family: "Imperial Script", cursive;
     margin: 20px;
 }
-.border-image {
-    margin-top: 200px;
-    margin-left: 450px;
-    width: 600px;
-    position: relative;
+.postcard {
+    margin-top: 60px;
+    margin-left: 120px;
+    width: 560px; 
+    height: auto;
+    position: relative; /* Position relative for absolute children */ 
+    border: 20px solid transparent; /* Required to define the border width */
+    border-image-slice: 100; /* Defines how the image is sliced */
+    border-image-repeat: repeat; /* Can be stretch, repeat, or round */
+    border-image-width: 20px;
 }
-.border-image img{
-	width: 600px;
+.photo {
+    width: 560px;
+    height: 400px;
+    object-fit: cover;
+    display: inline-block; 
+    filter: contrast(80%) brightness(70%) saturate(110%) sepia(5%);
+    image-rendering: pixelated;
+    /* filter: sepia(50%) contrast(85%) brightness(70%) saturate(60%); */
+    /* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); */
+}
+.photo img {
+    width: 100%;
+    height: auto;
+    border: none;
+    display: block;
 	opacity: 0;
 	animation-name: fadeIn;
 	animation-duration: 3s;
 	animation-fill-mode: forwards;
+}
+.stamp {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: auto;
+    border: 2px dashed;
+    border-color: white;
+    display: inline-block;
 }
 .note {
     position: absolute;
@@ -113,36 +151,72 @@ button[name="capture"] {
     font-size: 12px;
     font-family: monospace;
     font-weight: 100;
-    text-align: left;
+    word-spacing: 1px;
+    line-height: 20px;
+    text-align: center;
     width: 200px;
     height: auto;
-    padding: 30px;
-    border-radius: 5px;
+    padding: 5px;
+    /* border-radius: 5px; */
+    color: black;
+    background-color: white;
 }
 .date-display {
     position: absolute;
-    top: 3px;
-    left: 3px;
+    top: 28px;
+    left: 18px;
     font-size: 12px;
     font-family: monospace;
     font-weight: bold;
     text-align: left;
     padding-left: 10px;
     color: black;
+    background-color: white;
 }
-.vintage-photo {
-    width: 250px; /* Adjust size */
-    height: auto;
-    filter: sepia(50%) contrast(85%) brightness(90%) saturate(60%);
-    border: 10px solid #fff; /* White border */
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Shadow for depth */
-    padding: 10px;
-    background-color: #222; /* Dark background like photobooth strips */
-    display: block;
-    margin: 20px auto;
-}
+
 
 @keyframes fadeIn {
 	from { opacity: 0; }
 	to { opacity: 1; }
+}
+
+.box {
+    position: fixed;
+    top: 200px;
+    left: 100px;
+    width: 52em;
+    height: 35em;
+    background-color: rgb(4, 4, 173);
+    border-radius: 50px;
+    border: solid black 5px;
+}
+
+@media print {
+    @page {
+        size: 6.25in 4.65in;
+        margin: 0;
+        padding: 0;
+    }
+    .header {
+        display: none;
+    }
+    .message {
+        display: none;
+    }
+    .controls { 
+        display: none; /* Hide the controls when printing */
+    }
+    .box {
+        border: none;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    }
+
+    .postcard {
+        color: black; /* Change text color for better readability */
+        font-size: 16px; /* Adjust font size */
+        margin: 0;
+        padding: 0;
+    }
 }

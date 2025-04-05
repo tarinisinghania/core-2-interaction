@@ -10,11 +10,14 @@
 <link rel="stylesheet" href="assets/home.css">
 </head>
 <body>
-    <div class="output">
+    <div class="header">
+	<h1>Vintage Webpost</h1><br>
+	</div>
 	<div class="message">
-    <h1>Vintage WebPost</h1><br>
     <p>upload your picture <span>+</span> </p>
-	<input type="file" id="imageUpload" accept="image/*">
+	<input type="file" name="image" accept="image/*"><br>
+	<p>upload your stamp picture <span>+</span> </p>
+	<input type="file" name="image2" accept="image/*">
     </div>
 	
     <!-- Controls -->
@@ -26,7 +29,7 @@
 					<option value="birthday">BIRTHDAY</option>
 					<option value="anniversary">ANNIVERSARY</option>
                     <option value="graduation">GRADUATION</option>
-                    <option value="getwellsoon">GET WELL SOON</option>
+                    <option value="get well soon">GET WELL SOON</option>
                     <option value="christmas">CHRISTMAS</option>
 				</select>
 
@@ -51,11 +54,16 @@
 				
 			</div>
 		</div>
+	
+	<div class="box">
 	</div>
-		<div class="border-image">
+	<div class="output"></div>
+
+		<!-- <div class="vintage-photo">
+			<div class="border-image"></div>
 			<div class="note"></div>
-		</div>
-		
+		</div> -->
+		 
 <script src="assets/webpost.js" type="module"></script>
 </body>
 </html>
