@@ -64,7 +64,7 @@ captureButton.addEventListener('click', () => {
                     <div class="date-display">${storyDate}</div> 
                     <div class="note">${ matchingEntry.note }</div>
                 </div>
-                <div class="message" style= "margin-left: 140px; margin-top:10px;"> press command P to print your postcard!</div>
+                <div class="message" style= "margin-left: 140px; margin-top:15px;"> PRESS COMMAND P TO PRINT YOUR POSTCARD!<br>(Open in google chrome and save to pdf)</div>
                 </div>
             `;
 
