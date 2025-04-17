@@ -30,7 +30,7 @@ entries.forEach((entry) => {
         <li class="entry">
            <h2 class="entry-name">${entry.name}</h2>
            <p class="entry-comment">${entry.comment}</p>
-           <span class="time-stamp>${entry.timestamp}</span>
+           <span class="time-stamp">${entry.timestamp}</span>
         </li>
 
     `;
