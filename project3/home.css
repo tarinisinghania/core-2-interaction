@@ -1,0 +1,126 @@
+body {
+    background-image: url(blue.jpeg);
+    background-color: #3B8FD9;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.circles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    transform-origin: center;
+}
+.circles > div:nth-child(1) {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-color: none;
+    color: white;
+    border: solid 2px;
+    position: absolute;
+    left: 50%;
+    top: 50%; /* Center vertically as well */
+    transform: translate(-50%, -50%); /* Center it both horizontally and vertically */
+    z-index: 2;
+}
+.circles > div:nth-child(2) {
+    width: 400px;
+    height: 400px;
+    border-radius: 400px;
+    background-color: none;
+    color: white;
+    border: solid 2px;
+    position: absolute;
+    left: 50%;
+    top: 50%; /* Center vertically as well */
+    transform: translate(-50%, -50%); /* Center it both horizontally and vertically */
+    z-index: 1;
+}
+.circles > div:nth-child(3) {
+    width: 600px;
+    height: 600px;
+    border-radius: 600px;
+    background-color: none;
+    color: white;
+    border: solid 2px;
+    position: absolute;
+    left: 50%;
+    top: 50%; /* Center vertically as well */
+    transform: translate(-50%, -50%); /* Center it both horizontally and vertically */
+    z-index: 0;
+}
+.circles > div:nth-child(1):hover {
+    border: solid 10px;
+    border-color: white;
+}
+.circles > div:nth-child(2):hover {
+    border: solid 10px;
+    border-color: white;
+}
+.circles > div:nth-child(3):hover {
+    border: solid 10px;
+    border-color: white;
+}
+.header h1 {
+    position: fixed;
+    top: 5px;
+    left: 20px;
+    color: rgb(240, 253, 203);
+    font-size: 140px;
+    line-height: 120px;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0;
+  }
+  .footer h1 {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    color: rgb(228, 253, 203);
+    font-size: 140px;
+    line-height: 100px;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0;
+  }
+  .tooltip,
+  .tooltip1,
+  .tooltip2 {
+    position: absolute;
+    background: radial-gradient(#5CB9F2, #ebf9f4);
+    box-shadow: 0 0 20px 10px #ebf9f4;
+    color: white;
+    padding: 18px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    z-index: 3;
+  }
+ .green button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: radial-gradient(#5CB9F2, #ebf9f4);
+    box-shadow: 0 0 20px 10px #ebf9f4;
+    border-radius: 50px;
+    color: rgb(197, 251, 228);
+    border: none;
+    font-size: 20px;
+    padding: 30px;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    z-index: 4;
+  }
+  .green button:active {
+    background: radial-gradient(#44aff1, #d0fced);
+  }

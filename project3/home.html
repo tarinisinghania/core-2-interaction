@@ -4,8 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/project3/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Imperial+Script&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="green">
+    <button id ="buttonGreen">go green!</button>
+    </div>
+    <div class="header"><h1>go <br>touch</h1></div>
+    <div class="circles">
+        <div id="hoverTarget"></div>
+        <div id="hoverTarget1"></div>
+        <div id="hoverTarget2"></div>
+    </div>
+    <div class="footer"><h1>some <br>grass</h1></div>
+
+   <div class="tooltip" id="tooltip">in NYC</div>
+   <div class="tooltip1" id="tooltip1">around NYC</div>
+   <div class="tooltip2" id="tooltip2">outside NYC</div>
+
+    <script>
+         // Select the button
+         let button = document.querySelector('#buttonGreen');
+        
+        // Add click event listener to the button
+        button.addEventListener('click', function() {
+            document.body.style.backgroundColor = "green"; // Change to green
+        });
+        
+        const circle = document.getElementById('hoverTarget');
+        const circle1 = document.getElementById('hoverTarget1');
+        const circle2 = document.getElementById('hoverTarget2');
+        const tooltip = document.getElementById('tooltip');
+        const tooltip1 = document.getElementById('tooltip1');
+        const tooltip2 = document.getElementById('tooltip2');
+
+        circle.addEventListener('mousemove', (e) => {
+          tooltip.style.left = `${e.pageX + 10}px`; // position slightly right of cursor
+          tooltip.style.top = `${e.pageY + 10}px`;  // position slightly below cursor
+          tooltip.style.opacity = 1;
+        });
+      
+        circle.addEventListener('mouseleave', () => {
+          tooltip.style.opacity = 0;
+        });
+
+        circle1.addEventListener('mousemove', (e) => {
+          tooltip1.style.left = `${e.pageX + 10}px`; // position slightly right of cursor
+          tooltip1.style.top = `${e.pageY + 10}px`;  // position slightly below cursor
+          tooltip1.style.opacity = 1;
+        });
+      
+        circle1.addEventListener('mouseleave', () => {
+          tooltip1.style.opacity = 0;
+        });
+
+        circle2.addEventListener('mousemove', (e) => {
+          tooltip2.style.left = `${e.pageX + 10}px`; // position slightly right of cursor
+          tooltip2.style.top = `${e.pageY + 10}px`;  // position slightly below cursor
+          tooltip2.style.opacity = 1;
+        });
+      
+        circle2.addEventListener('mouseleave', () => {
+          tooltip2.style.opacity = 0;
+        });
+
+      </script>
 </body>
 </html>
