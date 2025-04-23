@@ -108,8 +108,8 @@ body {
     position: fixed;
     top: 20px;
     right: 20px;
-    background: radial-gradient(#5CB9F2, #ebf9f4);
-    box-shadow: 0 0 20px 10px #ebf9f4;
+    background: radial-gradient(#2B76D9, #8be0f5);
+    box-shadow: 0 0 20px 10px #8be0f5;
     border-radius: 50px;
     color: rgb(197, 251, 228);
     border: none;
@@ -123,4 +123,49 @@ body {
   }
   .green button:active {
     background: radial-gradient(#44aff1, #d0fced);
+  }
+  .comment button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: radial-gradient(#6DC1E6, #b8edfa);
+    box-shadow: 0 0 20px 10px #8be0f5;
+    border-radius: 50px;
+    color: rgb(197, 251, 228);
+    border: none;
+    font-size: 20px;
+    padding: 30px;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    z-index: 4;
+  }
+  .comment a {
+    text-decoration: none;
+    color: rgb(197, 251, 228);
+  }
+  .comment button:active {
+    background: radial-gradient(#44aff1, #d0fced);
+  }
+  .about button {
+    position: fixed;
+    bottom: 140px;
+    left: 20px;
+    background: radial-gradient(#6DC1E6, #b8edfa);
+    box-shadow: 0 0 20px 10px #8be0f5;
+    border-radius: 50px;
+    color: rgb(197, 251, 228);
+    border: none;
+    font-size: 20px;
+    padding: 30px;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    z-index: 4;
+  }
+  .about a {
+    text-decoration: none;
+    color: rgb(197, 251, 228);
   }
