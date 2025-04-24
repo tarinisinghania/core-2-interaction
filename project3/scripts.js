@@ -25,14 +25,17 @@ entries.forEach((entry) => {
     //log the entry to the console
     console.log('entry');
 
-    // add entry to the entries conatiner 
+    if (entry.enabled == 'TRUE') {
+        // add entry to the entries conatiner 
     entriesContainer.innerHTML += `
-        <li class="entry">
-           <h2 class="entry-name">${entry.name}</h2>
-           <p class="entry-comment">${entry.comment}</p>
-           <p class = "entry-recommendation">${entry.recommendation}</p>
-           <span class="time-stamp">${entry.timestamp}</span>
-        </li>
+    <li class="entry">
+       <h2 class="entry-name">${entry.name}</h2>
+       <p class="entry-comment">${entry.comment}</p>
+       <p class = "entry-recommendation">${entry.recommendation}</p>
+       <span class="time-stamp">${entry.timestamp}</span>
+    </li>
 
-    `;
+`;
+    }
+    
 });
