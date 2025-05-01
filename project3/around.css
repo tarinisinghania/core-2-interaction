@@ -1,5 +1,5 @@
 body {
-    background: url(blue.jpeg);
+    background: url(ocean1.png);
     background-size: cover;
 }
 .entry-body {
@@ -19,11 +19,11 @@ body {
 .entry-toggle {
     margin: 8px 0 8px 20px;
     border: none;
-    background: radial-gradient(#6DC1E6, #b8edfa);
-    box-shadow: 0 0 20px 10px #8be0f5;
+    background: radial-gradient(#80DBE6, #BBF3EA);
+    box-shadow: 0 0 20px 10px #BBF3EA;
     color: black;
     border-radius: 30px;
-    padding: 15px;
+    padding: 17px;
     font-family: "EB Garamond", serif;
     font-optical-sizing: auto;
     font-weight: 400;

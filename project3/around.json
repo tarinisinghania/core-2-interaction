@@ -74,7 +74,7 @@
   {
     "month": "September",
     "name": "Warwick Apple Picking",
-    "holiday": "September",
+    "holiday": "Any weekend of your choice!",
     "description": "Warwick is a village in Orange County, New York, United States, in the southeastern section of the town of Warwick.",
     "direction": "Car: 1hr 45mins\nBus: Port Authority - Oakland Ave At Orchard St",
     "image": "",
@@ -101,7 +101,7 @@
   {
     "month": "December",
     "name": "",
-    "holiday": "winter break",
+    "holiday": "Winter Break",
     "description": "",
     "direction": "",
     "image": "",

@@ -49,7 +49,7 @@
   },
   {
     "month": "July",
-    "name": "movie in NYC park",
+    "name": "Movie in NYC Parks",
     "holiday": "Independence Day: Friday, July 4, 2025",
     "description": "Summer movie nights in Bryant park, Seaport, Hudson river park",
     "image": "",
@@ -73,8 +73,8 @@
   },
   {
     "month": "October",
-    "name": "prospect park",
-    "holiday": "no holiday :(\nrelax for a few hours",
+    "name": "Prospect Park",
+    "holiday": "No holiday: relax for a few hours!!",
     "description": "Widely known for its intricate manmade watercourse (wetlands) and its trees, the bulk of Brooklyn's remaining indigenous forest, the park is a highly functional green space. Contained within its 526 acres are a zoo, the first urban-area Audubon Center in the nation, an ice rink, a band shell, a carousel, and dozens of athletic and recreational facilities.",
     "image": "",
     "filename": "prospect.jpeg"
