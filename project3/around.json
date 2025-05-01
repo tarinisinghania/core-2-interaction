@@ -1,0 +1,110 @@
+[
+  {
+    "month": "January",
+    "name": "Cold Springs",
+    "holiday": "Martin Luther King Jr. Day: Monday, January 20, 2025",
+    "description": "Cold Spring is a village in the town of Philipstown in Putnam County, New York, United States",
+    "direction": "Car: 1hr 30mins\nTrain: Metro-North Railroad (MNR) operates a train from Grand Central Terminal to Cold Spring hourly. Tickets cost $14 - $22 and the journey takes 1h 15m.",
+    "image": "",
+    "filename": "coldsprings.jpg"
+  },
+  {
+    "month": "February",
+    "name": "",
+    "holiday": "Presidents' Day: Monday, February 17, 2025",
+    "description": "",
+    "direction": "",
+    "image": "",
+    "filename": ""
+  },
+  {
+    "month": "March",
+    "name": "Storm King Mountain",
+    "holiday": "Spring Break: Monday, March 10 – Sunday, March 16, 2025",
+    "description": "Storm King Mountain is a mountain on the west bank of the Hudson River just south of Cornwall-on-Hudson, New York. It is great for hiking.",
+    "direction": "Car: 1hr 40mins",
+    "image": "",
+    "filename": "stormking.jpg"
+  },
+  {
+    "month": "April",
+    "name": "",
+    "holiday": "April: Final upproaching",
+    "description": "",
+    "direction": "",
+    "image": "",
+    "filename": ""
+  },
+  {
+    "month": "May",
+    "name": "Bear Mountain",
+    "holiday": "Memorial Day: Monday, May 26, 2025",
+    "description": "Bear Mountain State Park is situated in rugged mountains rising from the west bank of the Hudson River. The park features a large play field, shaded picnic groves, lake and river fishing access, a swimming pool, Trailside Museums and Zoo, hiking, biking and cross-country ski trails.",
+    "direction": "Car: 1hr 20mins",
+    "image": "",
+    "filename": "bear.jpg"
+  },
+  {
+    "month": "June",
+    "name": "Harriman State Park",
+    "holiday": "Juneteenth: Thursday, June 19, 2025",
+    "description": "Harriman State Park, located in Rockland and Orange counties, is the second-largest park in the parks system, with 31 lakes and reservoirs, 200 miles of hiking trails, two beaches, two public camping areas, a network of group camps, miles of streams and scenic roads, and scores of wildlife species, vistas and vantage points.",
+    "direction": "Train: To catch a ride on the Port Jervis line to any of the stations on the west side of Harriman State Park, take the train from Penn Station to Secaucus Junction, New Jersey — about a ten-minute ride.  From Secaucus Junction, transfer to the Port Jervis line, heading north.",
+    "image": "",
+    "filename": "harriman.jpg"
+  },
+  {
+    "month": "July",
+    "name": "Beacon",
+    "holiday": "Independence Day: Friday, July 4, 2025",
+    "description": "Beacon, NY's popularity stems from a combination of factors, including its vibrant art scene, proximity to NYC, and desirable small-town charm. It's become a popular destination for those seeking a mix of artistic experiences, a relaxed lifestyle, and easy access to the city.",
+    "direction": "Car: 1hr 45mins\nTrain: Metro-North Railroad (MNR) operates a train from Grand Central Terminal to Beacon hourly.",
+    "image": "",
+    "filename": "beacon.jpg"
+  },
+  {
+    "month": "August",
+    "name": "Rockaway Beach",
+    "holiday": "Labor Day: Saturday, August 31 – Monday, September 2, 2024",
+    "description": "From surfers to swimmers to the Ramones, everyone wants to \"hitch a ride to Rockaway Beach.\" Rockaway Beach is a year-round resource for residents all along the Rockaway peninsula, and it comes alive each summer from Memorial Day weekend through Labor Day weekend with millions of visitors.",
+    "direction": "Ferry: The Rockaway route of NYC Ferry will provide a key transit link between the Rockaways, Sunset Park, and Lower Manhattan while connecting New Yorkers to our city’s beaches.\nSubway: You can get to Rockaway Beach a few different ways, including the ​A and Rockaway Park Shuttle S​ trains, bus, and Long Island Rail Road.",
+    "image": "",
+    "filename": "rockaway.jpg"
+  },
+  {
+    "month": "September",
+    "name": "Warwick Apple Picking",
+    "holiday": "September",
+    "description": "Warwick is a village in Orange County, New York, United States, in the southeastern section of the town of Warwick.",
+    "direction": "Car: 1hr 45mins\nBus: Port Authority - Oakland Ave At Orchard St",
+    "image": "",
+    "filename": "warwick.jpg"
+  },
+  {
+    "month": "October",
+    "name": "Hudson Train Ride",
+    "holiday": "October: no holiday :(",
+    "description": "The \"Hudson train rise\" refers to a planned, multi-faceted project to improve the Hudson Line (Metro-North Railroad), specifically the section between New York City and Poughkeepsie.",
+    "direction": "Train: The Metro-North Hudson Line runs north from Grand Central Terminal in New York City to Poughkeepsie.",
+    "image": "",
+    "filename": "hudsontrain.jpeg"
+  },
+  {
+    "month": "November",
+    "name": "",
+    "holiday": "Thanksgiving Break: Thursday, November 28 – Sunday, December 1, 2024",
+    "description": "",
+    "direction": "",
+    "image": "",
+    "filename": ""
+  },
+  {
+    "month": "December",
+    "name": "",
+    "holiday": "winter break",
+    "description": "",
+    "direction": "",
+    "image": "",
+    "filename": ""
+  }
+]
