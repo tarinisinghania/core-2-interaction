@@ -1,0 +1,110 @@
+[
+  {
+    "month": "January",
+    "name": "",
+    "holiday": "Martin Luther King Jr. Day: Monday, January 20, 2025",
+    "description": "",
+    "directions": "",
+    "image": "",
+    "filename": ""
+  },
+  {
+    "month": "February",
+    "name": "New Orleans (Mardi Gras)",
+    "holiday": "Presidents' Day: Monday, February 17, 2025",
+    "description": "Mardi Gras, meaning \"Fat Tuesday\" in French, is celebrated as a period of excess and revelry before the Christian fasting season of Lent. It marks the last day to enjoy rich foods, particularly meat, before the Lenten period begins. Celebrations often involve parades, parties, and feasting, as people indulge in pleasures they plan to give up during Lent.",
+    "directions": "Flight: 3hrs",
+    "image": "",
+    "filename": "new-orleans.jpeg"
+  },
+  {
+    "month": "March",
+    "name": "Puerto Rico, Mexico, Dominican Republic etc.",
+    "holiday": "Spring Break: Monday, March 10 – Sunday, March 16, 2025",
+    "description": "",
+    "directions": "",
+    "image": "",
+    "filename": ""
+  },
+  {
+    "month": "April",
+    "name": "",
+    "holiday": "April: Final upproaching (relaxed weekend trip)",
+    "description": "",
+    "directions": "",
+    "image": "",
+    "filename": ""
+  },
+  {
+    "month": "May",
+    "name": "Hamptons",
+    "holiday": "Memorial Day: Monday, May 26, 2025",
+    "description": "The Hamptons, part of the East End of Long Island, consist of the towns of Southampton and East Hampton, which together compose the South Fork of Long Island, in Suffolk County, New York. The Hamptons are a popular seaside resort and one of the historical summer colonies of the northeastern United States.",
+    "directions": "Car: 2 - 3 hrs\nTrain: Long Island Rail Road operates a train from New York Penn Station to East Hampton once a week. Tickets cost $3–40 and the journey takes 2h 10m.",
+    "image": "",
+    "filename": "hamptons.jpg"
+  },
+  {
+    "month": "June",
+    "name": "Catskills Mountains",
+    "holiday": "Juneteenth: Thursday, June 19, 2025",
+    "description": "The Catskill Mountains lie in southeastern New York State. The area is known for the Catskill Forest Preserve, with its rich wildlife and hiking trails, and ski resorts including Hunter Mountain and Belleayre Mountain.",
+    "directions": "Car: 2hr\nTrain: 2hrs Amtrak or Metro-North, with transfers in New Jersey or along the Hudson River",
+    "image": "",
+    "filename": "catskills.jpg"
+  },
+  {
+    "month": "July",
+    "name": "Lake George",
+    "holiday": "Independence Day: Friday, July 4, 2025",
+    "description": "Lake George captures your soul. Soothes body and mind. Inspires art, music and healthy living. Makes memories that last forever.\nLake George is located at the southern end of the famed Adirondack Park in Upstate New York. It is considered to be among the clearest and cleanest large lakes in the world. Formed nearly 10,000 years ago by melting glaciers, the Lake’s water clarity and scenic beauty have awed residents and visitors alike for centuries. More than 90% of the watershed remains as natural forestland, with nearly half of the forested acreage publicly owned by New York State and constitutionally protected as forever-wild Forest Preserve. Adding to its allure, Lake George is a headwater lake, fed by dozens of mountain streams and dotted with more than 170 islands of varying shapes and sizes.",
+    "directions": "Train: AMTRAK (800-872-7245) runs routes from New York City to Montreal with 2 daily stops in Fort Edward, about 20 minutes from the Lake George Area.\nCar: 3 - 4 hrs",
+    "image": "",
+    "filename": "george.jpg"
+  },
+  {
+    "month": "August",
+    "name": "Montauk",
+    "holiday": "Labor Day: Saturday, August 31 – Monday, September 2, 2024",
+    "description": "Montauk, New York, is a village at the east end of the Long Island peninsula. It’s known for its beaches, like Ditch Plains, with its strong Atlantic surf. At the peninsula’s tip, Montauk Point State Park is home to the 1796 Montauk Point Lighthouse.",
+    "directions": "Car: 2hr 45mins\nTrain:  3hrs The Long Island Railroad operates out of Penn Station in Manhattan with stops at various locations in the borough of Queens and can take you all the way to Montauk at the very eastern end of the Island.",
+    "image": "",
+    "filename": "montauk.jpeg"
+  },
+  {
+    "month": "September",
+    "name": "Saranac Lakes",
+    "holiday": "",
+    "description": "Saranac Lake is a village in the state of New York, United States.",
+    "directions": "Car: 5hrs\nTrain: Amtrack",
+    "image": "",
+    "filename": "saranac.jpg"
+  },
+  {
+    "month": "October",
+    "name": "Finger Lakes",
+    "holiday": "no holiday",
+    "description": "The Finger Lakes are a group of eleven long, narrow, roughly north–south lakes located directly south of Lake Ontario in an area called the Finger Lakes region in New York, in the United States.",
+    "directions": "Car: 5hrs\nTrain: Amtrack",
+    "image": "",
+    "filename": "finger.jpg"
+  },
+  {
+    "month": "November",
+    "name": "",
+    "holiday": "Thanksgiving Break: Thursday, November 28 – Sunday, December 1, 2024",
+    "description": "",
+    "directions": "",
+    "image": "",
+    "filename": ""
+  },
+  {
+    "month": "December",
+    "name": "Vermont",
+    "holiday": "winter break",
+    "description": "Vermont is a state in the northeastern United States, known for its natural landscape, which is primarily forested. Part of the New England region, it's also known for being home to more than 100 19th-century covered wooden bridges, and as a major producer of maple syrup. Thousands of acres of mountain terrain are crossed by hiking trails and skiing slopes.",
+    "directions": "Car: 5 - 6 hrs\nTrain: Amtrak's Ethan Allen Express departs New York City and arrives in Burlington, Vermont in under eight hours. Stopping in five Vermont towns in total also including Castleton, Rutland, Middlebury, and Vergennes. (7-8 hrs)",
+    "image": "",
+    "filename": "vermont.jpeg"
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "month": "January",
+    "name": "MOMA Drawing",
+    "holiday": "Martin Luther King Jr. Day: Monday, January 20, 2025",
+    "description": "Explore artworks through drawing in relaxed drop-in sessions for all ages. Materials and seating are provided. Drop-in Drawing is free with admission and open to all, with no experience or ability required. Drop-in Drawing is facilitated by MoMA staff and guest artists and takes place in different galleries each month. Drop-In Drawing is part of UNIQLO Friday Nights where MoMA is open late every Friday night, and admission is free for all New York State residents!",
+    "image": "",
+    "filename": "moma.jpeg"
+  },
+  {
+    "month": "February",
+    "name": "Happy Medium (Art Cafe)",
+    "holiday": "Presidents' Day: Monday, February 17, 2025",
+    "description": "Just like in a restaurant, every person orders their own menu item when they arrive, they serve you tableside, and clean up the mess when you're done. It's the perfect place to create with friends or simply get lost in your own creativity. They also have hundreds of art books, art objects, and fresh flowers to keep you inspired. Art cafe experiences are fully self-guided.\nManhattan location - 49 Market St.",
+    "image": "",
+    "filename": "happymedium.jpeg"
+  },
+  {
+    "month": "March",
+    "name": "",
+    "holiday": "Spring Break: Monday, March 10 – Sunday, March 16, 2025",
+    "description": "",
+    "image": "",
+    "filename": ""
+  },
+  {
+    "month": "April",
+    "name": "Botonical garden (Brooklyn)",
+    "holiday": "April: Final upproaching (relaxed weekend)",
+    "description": "Brooklyn Botanic Garden is an urban botanic garden that connects people to the world of plants, fostering delight and curiosity while inspiring an appreciation and sense of stewardship of the environment. Peak season for cherry blossom!!",
+    "image": "",
+    "filename": "botonical.jpeg"
+  },
+  {
+    "month": "May",
+    "name": "Central Park Boating",
+    "holiday": "Memorial Day: Monday, May 26, 2025",
+    "description": "Boat rental hours: 10:00 AM to 7:00 PM or dusk (weather permitting)\nFirst come, first served - No Reservations\nCost: $25 per hour. Pay by credit card or Apple Pay only.\nEach boat holds up to 4 people\nLife jackets are provided\nChildren must be at least 3 feet tall\nChildren age 12 and under must be accompanied by an adult\nPets are not permitted\nLocation: Central Park Boathouse at E. 72nd Street and East Drive",
+    "image": "",
+    "filename": "boating.jpg"
+  },
+  {
+    "month": "June",
+    "name": "Little Island Summer Shows",
+    "holiday": "Juneteenth: Thursday, June 19, 2025",
+    "description": "Spend your summer at Little Island, where bold performances, breathtaking views and unforgettable experiences await. With over 110 performances across music, theater, dance, opera and more, it’s the ultimate outdoor stage for New York’s best artists.",
+    "image": "",
+    "filename": "littleisland.jpeg"
+  },
+  {
+    "month": "July",
+    "name": "movie in NYC park",
+    "holiday": "Independence Day: Friday, July 4, 2025",
+    "description": "Summer movie nights in Bryant park, Seaport, Hudson river park",
+    "image": "",
+    "filename": "movie.jpeg"
+  },
+  {
+    "month": "August",
+    "name": "Cycling on Brooklyn Bridge",
+    "holiday": "Labor Day: Saturday, August 31 – Monday, September 2, 2024",
+    "description": "Take a leisurely ride along our scenic, bike-friendly waterfront greenway that follows the park from Pier 1 to Pier 6, or bike to destination points throughout the park",
+    "image": "",
+    "filename": "cycling.jpg"
+  },
+  {
+    "month": "September",
+    "name": "The Union Square Greenmarket",
+    "holiday": "Any weekend of your choice!",
+    "description": "Visit Union Square NYC! It’s the perfect place to spend quality time with friends and family, while also enjoying the outdoors. Check out the iconic open-air Union Square Greenmarket and spend your day finding the freshest fruits + veggies, beautiful floral bouquets, local provisions from artisan vendors, and so much more.",
+    "image": "",
+    "filename": "greenmarket.jpeg"
+  },
+  {
+    "month": "October",
+    "name": "prospect park",
+    "holiday": "no holiday :(\nrelax for a few hours",
+    "description": "Widely known for its intricate manmade watercourse (wetlands) and its trees, the bulk of Brooklyn's remaining indigenous forest, the park is a highly functional green space. Contained within its 526 acres are a zoo, the first urban-area Audubon Center in the nation, an ice rink, a band shell, a carousel, and dozens of athletic and recreational facilities.",
+    "image": "",
+    "filename": "prospect.jpeg"
+  },
+  {
+    "month": "November",
+    "name": "The NYC Marathon",
+    "holiday": "Refresher",
+    "description": "The TCS New York City Marathon, also known as the NYC Marathon, is held every November in New York City.",
+    "image": "",
+    "filename": "marathon.jpg"
+  },
+  {
+    "month": "November End",
+    "name": "Thanksgiving Parade",
+    "holiday": "Thanksgiving Break: Thursday, November 28 – Sunday, December 1, 2024",
+    "description": "The Macy's Thanksgiving Day Parade is an annual parade in New York City presented by the American-based department store chain Macy's.",
+    "image": "",
+    "filename": "parade.jpg"
+  },
+  {
+    "month": "December",
+    "name": "Winter Village",
+    "holiday": "Winter break",
+    "description": "​Bryant Park’s Winter Village is a beloved seasonal attraction in Midtown Manhattan, transforming the park into a festive hub from late October through early March. At its heart lies New York City’s only free-admission ice skating rink. Surrounding the rink, over 170 holiday shops curated by Urbanspace offer handcrafted gifts, artisanal foods, and festive treats in charming, European-style kiosks .",
+    "image": "",
+    "filename": "christmas.jpeg"
+  }
+]
