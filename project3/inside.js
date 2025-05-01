@@ -15,7 +15,7 @@ entries.forEach((entry) => {
 				<h2>${ entry.name }</h2>
 				<h3>${ entry.holiday }</h3>
 				<p>${ entry.description }</p>
-                <img src="${entry.filename}" alt="${entry.name}" style="max-width: 50%; height: auto;">
+                <img src="${entry.filename}" alt="${entry.name}" style="max-width: 80%; height: auto;">
 			</div>
 		</div>
 	`
@@ -33,10 +33,23 @@ entryToggles.forEach((toggle) => {
         entryBodies.forEach((entryBody) => {
             entryBody.style.display = 'none';
         });
+        
+
 
         // show the toggled body element
         var entryBody = toggle.parentElement.querySelector('.entry-body');        
         entryBody.style.display = 'block';
+        entryBody.style.columnCount = '2';
+        entryBody.style.columnGap = '30px';
+        // Reset all toggle font weights
+        entryToggles.forEach((btn) => {
+            btn.style.fontWeight = '400';
+            btn.style.color = '#c9ee95';
+        });
 
-    });
+        // Highlight the clicked toggle
+        toggle.style.fontWeight = '800';
+        toggle.style.color = 'white';
+
+            });
 });

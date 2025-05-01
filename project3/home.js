@@ -1,5 +1,7 @@
  // Select the button
  let button = document.querySelector('#buttonGreen');
+ let button1 = document.querySelector('#buttonAbout');
+ let button2 = document.querySelector('#buttonComment');
  let isGreen = false;
 
 // Add click event listener to the button
@@ -9,9 +11,15 @@ button.addEventListener('click', function() {
     document.body.style.backgroundAttachement = "fixed"; 
     document.body.style.backgroundSize = "cover"; 
     document.body.style.backgroundColor = "#5B7329";
-    button.style.background = "radial-gradient(#6DC1E6, #b8edfa)";
-    button.style.boxShadow = "0 0 20px 10px #8be0f5";
+    button.style.background = "radial-gradient(#2a6730, #244027)";
+    button.style.boxShadow = "0 0 20px 10px #244027";
     button.style.color = "white";
+    button1.style.background = "radial-gradient(#2a6730, #244027)";
+    button1.style.boxShadow = "0 0 20px 10px #244027";
+    button1.style.color = "white";
+    button2.style.background = "radial-gradient(#2a6730, #244027)";
+    button2.style.boxShadow = "0 0 20px 10px #244027";
+    button2.style.color = "white";
     tooltip.style.background = "radial-gradient(#5B7329, #d3d7ae)";
     tooltip1.style.background = "radial-gradient(#5B7329, #d3d7ae)";
     tooltip2.style.background = "radial-gradient(#5B7329, #d3d7ae)";
@@ -28,6 +36,12 @@ button.addEventListener('click', function() {
         button.style.background = ""; // Reset button background
         button.style.boxShadow = ""; // Reset button shadow
         button.style.color = ""; // Reset button text color
+        button1.style.background = ""; // Reset button background
+        button1.style.boxShadow = ""; // Reset button shadow
+        button1.style.color = ""; // Reset button text color
+        button2.style.background = ""; // Reset button background
+        button2.style.boxShadow = ""; // Reset button shadow
+        button2.style.color = ""; // Reset button text color
         
         // Reset tooltip backgrounds
         tooltip.style.background = ""; 
