@@ -54,3 +54,28 @@ img {
 	top: 10px;
 	left: 10px;
 }
+
+@media (max-width: 600px) {
+    body{
+        background-color: rgb(46, 133, 226);
+        background-image: none;
+    }
+    div {
+        display: none;
+    }
+    p {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform-origin: center;
+        font-size: 15px;
+        font-family: "EB Garamond", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        transform: translate(-50%, -50%); /* Center it both horizontally and vertically */
+        color: white;
+        z-index: 1000;
+    }
+    
+}
