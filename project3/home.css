@@ -216,3 +216,64 @@ svg:hover .quarter {
     text-decoration: none;
     color: rgb(197, 251, 228);
   }
+
+
+  @media (max-width: 600px) {
+    #hoverTarget svg {
+      width: 100px;
+      height: 100px;
+    }
+    #hoverTarget1 svg {
+      width: 250px;
+      height: 250px;
+    }
+    #hoverTarget2 svg {
+      width: 400px;
+      height: 400px;
+    }
+    .quarter {
+      stroke-width: 5;
+    }
+    svg .quarter {
+      stroke-width: 5;
+    }
+    .header h1 {
+      position: fixed;
+      top: 5px;
+      left: 20px;
+      color: rgb(240, 253, 203);
+      font-size: 60px;
+      line-height: 50px;
+      font-family: "EB Garamond", serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+      margin: 0;
+    }
+    .footer h1 {
+      position: fixed;
+      bottom: 40px;
+      right: 20px;
+      color: rgb(228, 253, 203);
+      font-size: 60px;
+      line-height: 50px;
+      font-family: "EB Garamond", serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+      margin: 0;
+    }
+    .green button {
+      font-size: 20px;
+      padding: 20px;
+    }
+    .about button {
+      font-size: 20px;
+      padding: 20px;
+      bottom: 100px;
+    }
+    .comment button {
+      font-size: 20px;
+      padding: 20px;
+    }
+  }

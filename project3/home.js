@@ -66,6 +66,9 @@ const tooltip = document.getElementById('tooltip');
 const tooltip1 = document.getElementById('tooltip1');
 const tooltip2 = document.getElementById('tooltip2');
 
+const mediaQuery = window.matchMedia('(max-width: 600px)');
+
+function enableDesktopHover() {
 circle.addEventListener('mousemove', (e) => {
   tooltip.style.left = `${e.pageX + 10}px`; // position slightly right of cursor
   tooltip.style.top = `${e.pageY + 10}px`;  // position slightly below cursor
@@ -95,3 +98,54 @@ circle2.addEventListener('mousemove', (e) => {
 circle2.addEventListener('mouseleave', () => {
   tooltip2.style.opacity = 0;
 });
+}
+
+function enableMobileTap() {
+  circle.addEventListener('click', (e) => {
+    tooltip.style.left = `${e.pageX + 10}px`; // position slightly right of cursor
+    tooltip.style.top = `${e.pageY + 10}px`;  // position slightly below cursor
+    tooltip.style.opacity = 1;
+  });
+  
+  circle.addEventListener('click', () => {
+    tooltip.style.opacity = 0;
+  });
+  
+  circle1.addEventListener('click', (e) => {
+    tooltip1.style.left = `${e.pageX + 10}px`; // position slightly right of cursor
+    tooltip1.style.top = `${e.pageY + 10}px`;  // position slightly below cursor
+    tooltip1.style.opacity = 1;
+  });
+  
+  circle1.addEventListener('click', () => {
+    tooltip1.style.opacity = 0;
+  });
+  
+  circle2.addEventListener('click', (e) => {
+    tooltip2.style.left = `${e.pageX + 10}px`; // position slightly right of cursor
+    tooltip2.style.top = `${e.pageY + 10}px`;  // position slightly below cursor
+    tooltip2.style.opacity = 1;
+  });
+  
+  circle2.addEventListener('click', () => {
+    tooltip2.style.opacity = 0;
+  });
+}
+
+function handleScreenChange(e) {
+  if (e.matches) {
+    console.log("Mobile behavior activated");
+    document.body.style.backgroundColor = '#f0f8ff';
+    enableMobileTap();
+  } else {
+    console.log("Desktop behavior activated");
+    document.body.style.backgroundColor = '#ffffff';
+    enableDesktopHover();
+  }
+}
+
+// Run it once at load
+handleScreenChange(mediaQuery);
+
+// Add listener for future changes
+mediaQuery.addEventListener('change', handleScreenChange);
