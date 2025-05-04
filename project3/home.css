@@ -106,7 +106,7 @@ body {
 }
 
 svg:hover .quarter {
-  stroke-width: 5;
+  stroke-width: 10;
 }
 
 .header h1 {
