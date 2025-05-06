@@ -1,5 +1,6 @@
 body {
     background: url(green1.jpeg);
+    background-attachment: fixed;
     background-size: cover;
 }
 .entry-body {
