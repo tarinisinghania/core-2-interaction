@@ -219,6 +219,9 @@ svg:hover .quarter {
 
 
   @media (max-width: 600px) {
+    body {
+    height: 100vh;  
+  }
     #hoverTarget svg {
       width: 100px;
       height: 100px;
